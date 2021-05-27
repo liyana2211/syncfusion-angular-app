@@ -16,9 +16,10 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
+    "paths": { "@angular/*": ["./node_modules/@angular/*"] },
     "lib": [
       "es2018",
-      "dom"
+      "dom",
     ]
   },
   "angularCompilerOptions": {
